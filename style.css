@@ -1,0 +1,205 @@
+/*
+
+  Name: Henry Chiang 
+  Date: 8/28/26 - 8/31/26
+
+  My CSE files styles my [About Me], [Computer Science Experience/], [My Hobbies], and my [References] pages.
+  It styles all my text but most notably it includes navigation bars.
+
+*/
+
+body {
+    background-image: url("Images/background-pattern.png");
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #2C1E43;
+    color: #f8ff90;
+    border-radius: 5px;
+    padding: 5px;
+    margin-inline: 20px;
+    display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: ruby;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+    flex: auto;
+}
+
+nav {
+    background-color: #dda0dd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffcf75;
+    /* margin-top: 30px; */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 10px;
+    background-color: #ffc0cb;
+    color: #771323;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p, ul {
+    font-size: 20px;
+    margin-inline-start: 25px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+figure {
+    margin: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;   
+}
+
+figcaption {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+    width: 380px;
+}
+
+#main-title, h1, h2, h3, p, ul, figcaption {
+    font-family: cursive;
+}
+
+.box {
+    background-color: #e1e1e1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 5px;
+}
+
+#main-title, nav, h1, .box, footer {
+    margin-inline: 50px;
+    border: white solid 10px;
+}
+
+@media (width < 1000px) {
+    #main-title, nav, h1, .box, footer {
+        margin-inline: 25px;
+        text-align: center;
+    }
+    .center-flex {
+        flex-direction: column;
+    }
+}
+
+@media (width < 500px) {
+    #main-title, nav, h1, .box, footer {
+        margin-inline: 0;
+    }
+}
+
+.box ul, #social-icon {
+    text-align: justify;
+}
+
+#main-title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 5px;
+    color: #222668;
+    background-color: skyblue;
+}
+
+#highlight {
+    background-color: #ffff00;
+    display: inline;
+}
+
+#art-collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#social-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+#social-icon img {
+    width: 25px;
+    height: auto;
+}
+
+#social-icon li {
+    list-style: none;
+}
+
+#social-icon ul {
+    list-style: none;
+}
+
+#social-icon a {
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.picture-resize {
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.art-image img {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    border: white solid 10px;
+}
+
+.photo-journal-size {
+    width: 400px;
+    height: auto;
+}
