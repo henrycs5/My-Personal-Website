@@ -1,4 +1,4 @@
-Class: CSE 195 at the University of Washington (2026)
+CSE 195 at the University of Washington (2026)
 ---------------------------------------------
 - Program: Allen Scholars Summer Bridge (Aug. 25 - Sep. 18)
 - Project Duration: Aug. 28 - Sep. 16
